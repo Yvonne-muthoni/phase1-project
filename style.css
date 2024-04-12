@@ -1,35 +1,23 @@
-.container{
-    background-color: bisque;
-    padding-bottom:20px;
-    min-height:100vh;
+
+.img{
+    transition: 0.4s;
 }
-.headName{
-    color:black;
-    text-align: center;
-    padding-top: 20px;
+.img:hover{
+    transform: scale(1.05,1.05);
+    box-shadow: 0 0 5px 1px gray;
 }
 
-#msg{
-    text-align: center;
-    color: red;
-    display: none;
-    margin-bottom: 20px;
-}
-#items{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-.singleItem{
-    cursor: pointer;
-}
-#details{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 10px;
-}
 
-#category-select{
-    text-transform: lowercase;
+
+.header{
     text-align: center;
+    color: burlywood;
+    font-style: italic;
+}
+.logo img{
+    margin-top: 10px;
+    position:absolute;
+    right:20%;
+    height:6cm;
+    width:6cm;
 }
