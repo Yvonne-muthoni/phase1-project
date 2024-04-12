@@ -50,3 +50,14 @@ document.getElementById("btn").addEventListener("click", () => {
       document.querySelector('.try').innerHTML = "Try Something Else 😉";
   });
 });
+function generateListItems(meal, property) {
+  //an empty string to store list items
+  let listItems = '';
+  for (let i = 1; i <= 20; i++) {
+      const ingredient = meal[property + i];
+      if (ingredient) {
+          listItems += `<li>${ingredient}</li>`;
+      }
+  }
+  return listItems;
+}
