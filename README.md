@@ -26,7 +26,7 @@ Git clone git@github.com:Yvonne-muthoni/phase1-project.git
 ```
 
 # Live Link
-[Git](gh-pages link)
+https://yvonne-muthoni.github.io/phase1-project/
 
 ## Technologies used
 HTML
